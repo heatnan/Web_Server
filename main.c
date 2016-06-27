@@ -74,7 +74,7 @@ int main()
  		memset(buffer,0,sizeof(buffer));
 		int recv_len=recv(client_sockfd,buffer,sizeof(buffer),0);
 		printf("   %d bytes recved!   \n",recv_len);
-		//printf("recv_buffer is %s\n",buffer);
+		printf("recv_buffer is %s\n",buffer);
 		p_buffer=buffer;
 		if(recv_len>0&&recv_len<BUFFER_SIZE)
 		{

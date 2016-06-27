@@ -1,0 +1,4907 @@
+bind success!
+start listening!
+
+
+one client connect!
+   323 bytes recved!   
+recv_buffer is GET /index.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+get_request is /index.html
+lcfd /index.html  fd= 4
+path =/home/heatnan/Smart_home/www/index.html
+path in fucntion = 0x7f221c0008c0
+The request file format is:html 
+file type html
+send http head!
+p_path=0x7f221c0008c0 file_type=0x7f221c001480
+
+
+one client connect!
+   316 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/id.php
+
+
+one client connect!
+lcfd /index_files/id.php  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f221c0008c0
+The request file format is:php 
+***********Open file failed!***************
+   340 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.css
+
+
+one client connect!
+lcfd /index_files/blog-common.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/blog-common.css
+path in fucntion = 0x7f221c002040
+The request file format is:css 
+***********Open file failed!***************
+   322 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/analytics.js
+
+
+one client connect!
+lcfd /index_files/analytics.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c0037c0
+The request file format is:js 
+***********Open file failed!***************
+   335 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/131868.css
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/bundle-coffee.css
+lcfd /index_files/bundle-coffee.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c004f40
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/bundle-coffee.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c0066c0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   319 bytes recved!   
+recv_buffer is GET /index_files/jquery.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jquery.js
+lcfd /index_files/jquery.js  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c007e40
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   322 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/analytics.js
+lcfd /index_files/analytics.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c0095c0
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   324 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.js
+
+
+one client connect!
+   340 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.css
+
+
+one client connect!
+lcfd /index_files/blog-common.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/blog-common.css
+path in fucntion = 0x7f221c00ad40
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/blog-common.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/blog-common.css
+path in fucntion = 0x7f221c00c4c0
+The request file format is:css 
+***********Open file failed!***************
+   342 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jiathis_share.css
+lcfd /index_files/jiathis_share.css  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c00dc40
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   351 bytes recved!   
+recv_buffer is GET /index_files/img_012.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_012.gif
+
+
+one client connect!
+   348 bytes recved!   
+recv_buffer is GET /index_files/logo.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/logo.gif
+
+
+one client connect!
+lcfd /index_files/logo.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/logo.gif
+path in fucntion = 0x7f221c00f3c0
+The request file format is:gif 
+***********Open file failed!***************
+lcfd /index_files/logo.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/logo.gif
+path in fucntion = 0x7f221c010b40
+The request file format is:gif 
+***********Open file failed!***************
+   349 bytes recved!   
+recv_buffer is GET /index_files/group.png HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/group.png
+lcfd /index_files/group.png  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/group.png
+path in fucntion = 0x7f221c0122c0
+The request file format is:png 
+***********Open file failed!***************
+
+
+one client connect!
+   345 bytes recved!   
+recv_buffer is GET /index_files/r.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/r.gif
+
+
+one client connect!
+lcfd /index_files/r.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/r.gif
+path in fucntion = 0x7f221c013a40
+The request file format is:gif 
+***********Open file failed!***************
+   352 bytes recved!   
+recv_buffer is GET /index_files/img_exit.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_exit.gif
+
+
+one client connect!
+lcfd /index_files/img_exit.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/img_exit.gif
+path in fucntion = 0x7f221c0151c0
+The request file format is:gif 
+***********Open file failed!***************
+   347 bytes recved!   
+recv_buffer is GET /index_files/xml.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/xml.gif
+lcfd /index_files/xml.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c016940
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   324 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.js
+lcfd /index_files/blog-common.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/blog-common.js
+path in fucntion = 0x7f221c0180c0
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   390 bytes recved!   
+recv_buffer is GET /index_files/jiathis_utility.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jiathis_utility.html
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jiathis_share.css
+lcfd /index_files/jiathis_share.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c019840
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/jiathis_share.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c01afc0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   352 bytes recved!   
+recv_buffer is GET /index_files/img_exit.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_exit.gif
+
+
+one client connect!
+lcfd /index_files/img_exit.gif  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/img_exit.gif
+path in fucntion = 0x7f221c01c740
+The request file format is:gif 
+***********Open file failed!***************
+   351 bytes recved!   
+recv_buffer is GET /index_files/img_012.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_012.gif
+
+
+one client connect!
+lcfd /index_files/img_012.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/img_012.gif
+path in fucntion = 0x7f221c01dec0
+The request file format is:gif 
+***********Open file failed!***************
+   345 bytes recved!   
+recv_buffer is GET /index_files/r.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/r.gif
+
+
+one client connect!
+lcfd /index_files/r.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/r.gif
+path in fucntion = 0x7f221c01f640
+The request file format is:gif 
+***********Open file failed!***************
+   349 bytes recved!   
+recv_buffer is GET /index_files/group.png HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/group.png
+
+
+one client connect!
+lcfd /index_files/group.png  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/group.png
+path in fucntion = 0x7f221c020dc0
+   348 bytes recved!   
+recv_buffer is GET /index_files/logo.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/logo.gif
+
+
+one client connect!
+The request file format is:gif 
+***********Open file failed!***************
+lcfd /index_files/logo.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/logo.gif
+path in fucntion = 0x7f221c022540
+The request file format is:gif 
+***********Open file failed!***************
+   347 bytes recved!   
+recv_buffer is GET /index_files/xml.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/xml.gif
+lcfd /index_files/xml.gif  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c023cc0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   349 bytes recved!   
+recv_buffer is GET /index.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+get_request is /index.html
+lcfd /index.html  fd= 4
+path =/home/heatnan/Smart_home/www/index.html
+path in fucntion = 0x7f221c025440
+The request file format is:html 
+file type html
+send http head!
+p_path=0x7f221c025440 file_type=0x7f221c026000
+
+
+one client connect!
+   335 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/131868.css
+
+
+one client connect!
+   340 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.css
+
+
+one client connect!
+   316 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/id.php
+lcfd /index_files/id.php  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f221c025440
+The request file format is:php 
+***********Open file failed!***************
+lcfd /index_files/id.php  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f221c026bc0
+The request file format is:php 
+***********Open file failed!***************
+lcfd /index_files/id.php  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f221c028340
+The request file format is:php 
+***********Open file failed!***************
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/bundle-coffee.css
+
+
+one client connect!
+lcfd /index_files/bundle-coffee.css  fd= 7
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c029ac0
+The request file format is:css 
+***********Open file failed!***************
+   322 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/analytics.js
+lcfd /index_files/analytics.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c02b240
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   319 bytes recved!   
+recv_buffer is GET /index_files/jquery.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jquery.js
+lcfd /index_files/jquery.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c02c9c0
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   324 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.js
+lcfd /index_files/blog-common.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/blog-common.js
+path in fucntion = 0x7f221c02e140
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jiathis_share.css
+
+
+one client connect!
+lcfd /index_files/jiathis_share.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c02f8c0
+The request file format is:css 
+***********Open file failed!***************
+   335 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/131868.css
+lcfd /index_files/131868.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/131868.css
+path in fucntion = 0x7f221c031040
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   340 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.css
+lcfd /index_files/blog-common.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/blog-common.css
+path in fucntion = 0x7f221c0327c0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   352 bytes recved!   
+recv_buffer is GET /index_files/img_exit.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_exit.gif
+
+
+one client connect!
+lcfd /index_files/img_exit.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/img_exit.gif
+path in fucntion = 0x7f221c033f40
+The request file format is:gif 
+***********Open file failed!***************
+   348 bytes recved!   
+recv_buffer is GET /index_files/logo.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/logo.gif
+lcfd /index_files/logo.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/logo.gif
+path in fucntion = 0x7f221c0356c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   349 bytes recved!   
+recv_buffer is GET /index_files/group.png HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/group.png
+lcfd /index_files/group.png  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/group.png
+path in fucntion = 0x7f221c036e40
+The request file format is:png 
+***********Open file failed!***************
+
+
+one client connect!
+   351 bytes recved!   
+recv_buffer is GET /index_files/img_012.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_012.gif
+lcfd /index_files/img_012.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/img_012.gif
+path in fucntion = 0x7f221c0385c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   345 bytes recved!   
+recv_buffer is GET /index_files/r.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/r.gif
+lcfd /index_files/r.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/r.gif
+path in fucntion = 0x7f221c039d40
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   347 bytes recved!   
+recv_buffer is GET /index_files/xml.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/xml.gif
+lcfd /index_files/xml.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c03b4c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   324 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.js
+lcfd /index_files/blog-common.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/blog-common.js
+path in fucntion = 0x7f221c03cc40
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jiathis_share.css
+lcfd /index_files/jiathis_share.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c03e3c0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   390 bytes recved!   
+recv_buffer is GET /index_files/jiathis_utility.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jiathis_utility.html
+lcfd /index_files/jiathis_utility.html  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jiathis_utility.html
+path in fucntion = 0x7f221c03fb40
+The request file format is:html 
+***********Open file failed!***************
+
+
+one client connect!
+   345 bytes recved!   
+recv_buffer is GET /index_files/r.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/r.gif
+lcfd /index_files/r.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/r.gif
+path in fucntion = 0x7f221c0412c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   352 bytes recved!   
+recv_buffer is GET /index_files/img_exit.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_exit.gif
+lcfd /index_files/img_exit.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/img_exit.gif
+path in fucntion = 0x7f221c042a40
+The request file format is:gif 
+
+
+one client connect!
+***********Open file failed!***************
+   347 bytes recved!   
+recv_buffer is GET /index_files/xml.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/xml.gif
+lcfd /index_files/xml.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c0441c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   351 bytes recved!   
+recv_buffer is GET /index_files/img_012.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_012.gif
+
+
+one client connect!
+lcfd /index_files/img_012.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/img_012.gif
+path in fucntion = 0x7f221c045940
+The request file format is:gif 
+***********Open file failed!***************
+   348 bytes recved!   
+recv_buffer is GET /index_files/logo.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/logo.gif
+lcfd /index_files/logo.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/logo.gif
+path in fucntion = 0x7f221c0470c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   349 bytes recved!   
+recv_buffer is GET /index_files/group.png HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/group.png
+lcfd /index_files/group.png  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/group.png
+path in fucntion = 0x7f221c048840
+The request file format is:png 
+***********Open file failed!***************
+
+
+one client connect!
+   616 bytes recved!   
+recv_buffer is GET /index.html HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,UC/145,plugin/1,alipay/un
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+X-UCBrowser-UA: dv(MX5);pr(UCBrowser/10.10.0.800);ov(Android 5.1);ss(360*640);pi(1080*1920);bt(YZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(1);
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index.html
+lcfd /index.html  fd= 5
+path =/home/heatnan/Smart_home/www/index.html
+path in fucntion = 0x7f221c049fc0
+The request file format is:html 
+file type html
+send http head!
+p_path=0x7f221c049fc0 file_type=0x7f221c04ab80
+
+
+one client connect!
+   446 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/id.php
+
+
+one client connect!
+lcfd /index_files/id.php  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f221c049fc0
+The request file format is:php 
+***********Open file failed!***************
+   465 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/131868.css
+
+
+one client connect!
+   470 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/blog-common.css
+
+
+one client connect!
+   452 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/analytics.js
+
+
+one client connect!
+   449 bytes recved!   
+recv_buffer is GET /index_files/jquery.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jquery.js
+
+
+one client connect!
+   472 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/bundle-coffee.css
+lcfd /index_files/bundle-coffee.css  fd= 8
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c04b740
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/bundle-coffee.css  fd= 7
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c04cec0
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/bundle-coffee.css  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c04e640
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/bundle-coffee.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c04fdc0
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/bundle-coffee.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c051540
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   470 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/blog-common.css
+
+
+one client connect!
+   472 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_share.css
+
+
+one client connect!
+   454 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/blog-common.js
+
+
+one client connect!
+   472 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/bundle-coffee.css
+lcfd /index_files/bundle-coffee.css  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c052cc0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+lcfd /index_files/bundle-coffee.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c054440
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/bundle-coffee.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c055bc0
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/bundle-coffee.css  fd= 9
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c057340
+The request file format is:css 
+***********Open file failed!***************
+   446 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/id.php
+
+
+one client connect!
+   465 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/131868.css
+lcfd /index_files/131868.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/131868.css
+path in fucntion = 0x7f221c058ac0
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/131868.css  fd= 7
+path =/home/heatnan/Smart_home/www/index_files/131868.css
+path in fucntion = 0x7f221c05a240
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   470 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/blog-common.css
+
+
+one client connect!
+   452 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/analytics.js
+
+
+one client connect!
+lcfd /index_files/analytics.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c05b9c0
+The request file format is:js 
+***********Open file failed!***************
+lcfd /index_files/analytics.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c05d140
+The request file format is:js 
+***********Open file failed!***************
+   446 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/id.php
+
+
+one client connect!
+   472 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_share.css
+
+
+one client connect!
+lcfd /index_files/jiathis_share.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c05e8c0
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/jiathis_share.css  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c060040
+The request file format is:css 
+***********Open file failed!***************
+   449 bytes recved!   
+recv_buffer is GET /index_files/jquery.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jquery.js
+
+
+one client connect!
+   472 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/bundle-coffee.css
+lcfd /index_files/bundle-coffee.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c0617c0
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/bundle-coffee.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c062f40
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   465 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/131868.css
+
+
+one client connect!
+   449 bytes recved!   
+recv_buffer is GET /index_files/jquery.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jquery.js
+
+
+one client connect!
+lcfd /index_files/jquery.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c0646c0
+The request file format is:js 
+***********Open file failed!***************
+lcfd /index_files/jquery.js  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c065e40
+The request file format is:js 
+***********Open file failed!***************
+   454 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/blog-common.js
+
+
+one client connect!
+lcfd /index_files/blog-common.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/blog-common.js
+path in fucntion = 0x7f221c0675c0
+The request file format is:js 
+***********Open file failed!***************
+   452 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/analytics.js
+
+
+one client connect!
+lcfd /index_files/analytics.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c068d40
+The request file format is:js 
+***********Open file failed!***************
+   472 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_share.css
+lcfd /index_files/jiathis_share.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c06a4c0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   454 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/blog-common.js
+lcfd /index_files/blog-common.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/blog-common.js
+path in fucntion = 0x7f221c06bc40
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   562 bytes recved!   
+recv_buffer is GET /index_files/r.gif HTTP/1.1
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Referer: http://123.56.4.89:8000/index.html
+clientip: 223.104.38.50
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454; 
+X-Forwarded-For: 223.104.38.50
+Host: 123.56.4.89:8000
+Cache-Control: max-age=259200
+Connection: keep-alive
+
+
+get_request is /index_files/r.gif
+lcfd /index_files/r.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/r.gif
+path in fucntion = 0x7f221c06d3c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   568 bytes recved!   
+recv_buffer is GET /index_files/img_012.gif HTTP/1.1
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Referer: http://123.56.4.89:8000/index.html
+clientip: 223.104.38.50
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454; 
+X-Forwarded-For: 223.104.38.50
+Host: 123.56.4.89:8000
+Cache-Control: max-age=259200
+Connection: keep-alive
+
+
+get_request is /index_files/img_012.gif
+lcfd /index_files/img_012.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/img_012.gif
+path in fucntion = 0x7f221c06eb40
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   569 bytes recved!   
+recv_buffer is GET /index_files/img_exit.gif HTTP/1.1
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Referer: http://123.56.4.89:8000/index.html
+clientip: 223.104.38.50
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454; 
+X-Forwarded-For: 223.104.38.50
+Host: 123.56.4.89:8000
+Cache-Control: max-age=259200
+Connection: keep-alive
+
+
+get_request is /index_files/img_exit.gif
+lcfd /index_files/img_exit.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/img_exit.gif
+path in fucntion = 0x7f221c0702c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   683 bytes recved!   
+recv_buffer is GET /index_files/jiathis_utility.html HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+X-UCBrowser-UA: dv(MX5);pr(UCBrowser/10.10.0.800);ov(Android 5.1);ss(360*640);pi(1080*1920);bt(YZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(1);
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,UC/145,plugin/1,alipay/un
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_utility.html
+lcfd /index_files/jiathis_utility.html  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jiathis_utility.html
+path in fucntion = 0x7f221c071a40
+The request file format is:html 
+***********Open file failed!***************
+
+
+one client connect!
+   564 bytes recved!   
+recv_buffer is GET /index_files/xml.gif HTTP/1.1
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Referer: http://123.56.4.89:8000/index.html
+clientip: 223.104.38.50
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454; 
+X-Forwarded-For: 223.104.38.50
+Host: 123.56.4.89:8000
+Cache-Control: max-age=259200
+Connection: keep-alive
+
+
+get_request is /index_files/xml.gif
+lcfd /index_files/xml.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c0731c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   565 bytes recved!   
+recv_buffer is GET /index_files/logo.gif HTTP/1.1
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Referer: http://123.56.4.89:8000/index.html
+clientip: 223.104.38.50
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454; 
+X-Forwarded-For: 223.104.38.50
+Host: 123.56.4.89:8000
+Cache-Control: max-age=259200
+Connection: keep-alive
+
+
+get_request is /index_files/logo.gif
+lcfd /index_files/logo.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/logo.gif
+path in fucntion = 0x7f221c074940
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   683 bytes recved!   
+recv_buffer is GET /index_files/jiathis_utility.html HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+X-UCBrowser-UA: dv(MX5);pr(UCBrowser/10.10.0.800);ov(Android 5.1);ss(360*640);pi(1080*1920);bt(YZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(1);
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,UC/145,plugin/1,alipay/un
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_utility.html
+lcfd /index_files/jiathis_utility.html  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jiathis_utility.html
+path in fucntion = 0x7f221c0760c0
+The request file format is:html 
+***********Open file failed!***************
+
+
+one client connect!
+   683 bytes recved!   
+recv_buffer is GET /index_files/jiathis_utility.html HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+X-UCBrowser-UA: dv(MX5);pr(UCBrowser/10.10.0.800);ov(Android 5.1);ss(360*640);pi(1080*1920);bt(YZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(1);
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,UC/145,plugin/1,alipay/un
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_utility.html
+lcfd /index_files/jiathis_utility.html  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jiathis_utility.html
+path in fucntion = 0x7f221c077840
+The request file format is:html 
+***********Open file failed!***************
+
+
+one client connect!
+   566 bytes recved!   
+recv_buffer is GET /index_files/group.png HTTP/1.1
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Referer: http://123.56.4.89:8000/index.html
+clientip: 223.104.38.50
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454; 
+X-Forwarded-For: 223.104.38.50
+Host: 123.56.4.89:8000
+Cache-Control: max-age=259200
+Connection: keep-alive
+
+
+get_request is /index_files/group.png
+lcfd /index_files/group.png  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/group.png
+path in fucntion = 0x7f221c078fc0
+The request file format is:png 
+***********Open file failed!***************
+
+
+one client connect!
+   507 bytes recved!   
+recv_buffer is GET /favicon.ico HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/xml,text/html,application/xhtml+xml,image/png,text/plain,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /favicon.ico
+lcfd /favicon.ico  fd= 4
+path =/home/heatnan/Smart_home/www/favicon.ico
+path in fucntion = 0x7f221c07a740
+The request file format is:ico 
+***********Open file failed!***************
+
+
+one client connect!
+   507 bytes recved!   
+recv_buffer is GET /favicon.ico HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/xml,text/html,application/xhtml+xml,image/png,text/plain,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /favicon.ico
+lcfd /favicon.ico  fd= 5
+path =/home/heatnan/Smart_home/www/favicon.ico
+path in fucntion = 0x7f221c07bec0
+The request file format is:ico 
+***********Open file failed!***************
+
+
+one client connect!
+   507 bytes recved!   
+recv_buffer is GET /favicon.ico HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/xml,text/html,application/xhtml+xml,image/png,text/plain,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /favicon.ico
+lcfd /favicon.ico  fd= 4
+path =/home/heatnan/Smart_home/www/favicon.ico
+path in fucntion = 0x7f221c07d640
+The request file format is:ico 
+***********Open file failed!***************
+
+
+one client connect!
+   616 bytes recved!   
+recv_buffer is GET /index.html HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,UC/145,plugin/1,alipay/un
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+X-UCBrowser-UA: dv(MX5);pr(UCBrowser/10.10.0.800);ov(Android 5.1);ss(360*640);pi(1080*1920);bt(YZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(1);
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index.html
+lcfd /index.html  fd= 5
+path =/home/heatnan/Smart_home/www/index.html
+path in fucntion = 0x7f221c07edc0
+The request file format is:html 
+file type html
+send http head!
+
+
+one client connect!
+   446 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/id.php
+lcfd /index_files/id.php  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f22140008c0
+The request file format is:php 
+***********Open file failed!***************
+
+
+one client connect!
+   446 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/id.php
+lcfd /index_files/id.php  fd= 7
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f2214002040
+The request file format is:php 
+***********Open file failed!***************
+p_path=0x7f221c07edc0 file_type=0x7f221c07f980
+
+
+one client connect!
+   446 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/id.php
+lcfd /index_files/id.php  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f221c07edc0
+The request file format is:php 
+***********Open file failed!***************
+
+
+one client connect!
+   565 bytes recved!   
+recv_buffer is GET /index_files/logo.gif HTTP/1.1
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Referer: http://123.56.4.89:8000/index.html
+clientip: 223.104.38.50
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454; 
+X-Forwarded-For: 223.104.38.50
+Host: 123.56.4.89:8000
+Cache-Control: max-age=259200
+Connection: keep-alive
+
+
+get_request is /index_files/logo.gif
+lcfd /index_files/logo.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/logo.gif
+path in fucntion = 0x7f221c080540
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   564 bytes recved!   
+recv_buffer is GET /index_files/xml.gif HTTP/1.1
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Referer: http://123.56.4.89:8000/index.html
+clientip: 223.104.38.50
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454; 
+X-Forwarded-For: 223.104.38.50
+Host: 123.56.4.89:8000
+Cache-Control: max-age=259200
+Connection: keep-alive
+
+
+get_request is /index_files/xml.gif
+lcfd /index_files/xml.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c081cc0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   683 bytes recved!   
+recv_buffer is GET /index_files/jiathis_utility.html HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+X-UCBrowser-UA: dv(MX5);pr(UCBrowser/10.10.0.800);ov(Android 5.1);ss(360*640);pi(1080*1920);bt(YZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(1);
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,UC/145,plugin/1,alipay/un
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_utility.html
+lcfd /index_files/jiathis_utility.html  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jiathis_utility.html
+path in fucntion = 0x7f221c083440
+The request file format is:html 
+***********Open file failed!***************
+
+
+one client connect!
+   683 bytes recved!   
+recv_buffer is GET /index_files/jiathis_utility.html HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+X-UCBrowser-UA: dv(MX5);pr(UCBrowser/10.10.0.800);ov(Android 5.1);ss(360*640);pi(1080*1920);bt(YZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(1);
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,UC/145,plugin/1,alipay/un
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_utility.html
+lcfd /index_files/jiathis_utility.html  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jiathis_utility.html
+path in fucntion = 0x7f221c084bc0
+The request file format is:html 
+***********Open file failed!***************
+
+
+one client connect!
+   683 bytes recved!   
+recv_buffer is GET /index_files/jiathis_utility.html HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+X-UCBrowser-UA: dv(MX5);pr(UCBrowser/10.10.0.800);ov(Android 5.1);ss(360*640);pi(1080*1920);bt(YZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(1);
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,UC/145,plugin/1,alipay/un
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_utility.html
+lcfd /index_files/jiathis_utility.html  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jiathis_utility.html
+path in fucntion = 0x7f221c086340
+The request file format is:html 
+***********Open file failed!***************
+
+
+one client connect!
+   566 bytes recved!   
+recv_buffer is GET /index_files/group.png HTTP/1.1
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Referer: http://123.56.4.89:8000/index.html
+clientip: 223.104.38.50
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454; 
+X-Forwarded-For: 223.104.38.50
+Host: 123.56.4.89:8000
+Cache-Control: max-age=259200
+Connection: keep-alive
+
+
+get_request is /index_files/group.png
+lcfd /index_files/group.png  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/group.png
+path in fucntion = 0x7f221c087ac0
+The request file format is:png 
+***********Open file failed!***************
+
+
+one client connect!
+   507 bytes recved!   
+recv_buffer is GET /favicon.ico HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/xml,text/html,application/xhtml+xml,image/png,text/plain,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /favicon.ico
+lcfd /favicon.ico  fd= 5
+path =/home/heatnan/Smart_home/www/favicon.ico
+path in fucntion = 0x7f221c089240
+The request file format is:ico 
+***********Open file failed!***************
+
+
+one client connect!
+   507 bytes recved!   
+recv_buffer is GET /favicon.ico HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/xml,text/html,application/xhtml+xml,image/png,text/plain,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /favicon.ico
+lcfd /favicon.ico  fd= 4
+path =/home/heatnan/Smart_home/www/favicon.ico
+path in fucntion = 0x7f221c08a9c0
+The request file format is:ico 
+***********Open file failed!***************
+
+
+one client connect!
+   507 bytes recved!   
+recv_buffer is GET /favicon.ico HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/xml,text/html,application/xhtml+xml,image/png,text/plain,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /favicon.ico
+lcfd /favicon.ico  fd= 5
+path =/home/heatnan/Smart_home/www/favicon.ico
+path in fucntion = 0x7f221c08c140
+The request file format is:ico 
+***********Open file failed!***************
+
+
+one client connect!
+   349 bytes recved!   
+recv_buffer is GET /index.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+get_request is /index.html
+lcfd /index.html  fd= 4
+path =/home/heatnan/Smart_home/www/index.html
+path in fucntion = 0x7f221c08d8c0
+The request file format is:html 
+file type html
+send http head!
+p_path=0x7f221c08d8c0 file_type=0x7f221c08e480
+
+
+one client connect!
+   316 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/id.php
+lcfd /index_files/id.php  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f221c08d8c0
+The request file format is:php 
+***********Open file failed!***************
+
+
+one client connect!
+   322 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/analytics.js
+
+
+one client connect!
+   335 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/131868.css
+lcfd /index_files/131868.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/131868.css
+path in fucntion = 0x7f221c08f040
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/131868.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/131868.css
+path in fucntion = 0x7f221c0907c0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   340 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.css
+
+
+one client connect!
+lcfd /index_files/blog-common.css  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/blog-common.css
+path in fucntion = 0x7f221c091f40
+The request file format is:css 
+***********Open file failed!***************
+   342 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/bundle-coffee.css
+lcfd /index_files/bundle-coffee.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c0936c0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   324 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.js
+
+
+one client connect!
+   319 bytes recved!   
+recv_buffer is GET /index_files/jquery.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jquery.js
+lcfd /index_files/jquery.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c094e40
+The request file format is:js 
+***********Open file failed!***************
+lcfd /index_files/jquery.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c0965c0
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jiathis_share.css
+lcfd /index_files/jiathis_share.css  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c097d40
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   324 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.js
+lcfd /index_files/blog-common.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/blog-common.js
+path in fucntion = 0x7f221c0994c0
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   345 bytes recved!   
+recv_buffer is GET /index_files/r.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/r.gif
+
+
+one client connect!
+lcfd /index_files/r.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/r.gif
+path in fucntion = 0x7f221c09ac40
+The request file format is:gif 
+***********Open file failed!***************
+   352 bytes recved!   
+recv_buffer is GET /index_files/img_exit.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_exit.gif
+lcfd /index_files/img_exit.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/img_exit.gif
+path in fucntion = 0x7f221c09c3c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   351 bytes recved!   
+recv_buffer is GET /index_files/img_012.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_012.gif
+
+
+one client connect!
+   347 bytes recved!   
+recv_buffer is GET /index_files/xml.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/xml.gif
+lcfd /index_files/xml.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c09db40
+The request file format is:gif 
+***********Open file failed!***************
+lcfd /index_files/xml.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c09f2c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   349 bytes recved!   
+recv_buffer is GET /index.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+get_request is /index.html
+lcfd /index.html  fd= 6
+path =/home/heatnan/Smart_home/www/index.html
+path in fucntion = 0x7f221c0a0a40
+The request file format is:html 
+file type html
+send http head!
+p_path=0x7f221c0a0a40 file_type=0x7f221c0a1600
+
+
+one client connect!
+   316 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/id.php
+
+
+one client connect!
+lcfd /index_files/id.php  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f221c0a0a40
+The request file format is:php 
+***********Open file failed!***************
+   342 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/bundle-coffee.css
+
+
+one client connect!
+lcfd /index_files/bundle-coffee.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c0a21c0
+The request file format is:css 
+***********Open file failed!***************
+   335 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/131868.css
+lcfd /index_files/131868.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/131868.css
+path in fucntion = 0x7f221c0a3940
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   340 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.css
+
+
+one client connect!
+   322 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/analytics.js
+lcfd /index_files/analytics.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c0a50c0
+The request file format is:js 
+***********Open file failed!***************
+lcfd /index_files/analytics.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c0a6840
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   349 bytes recved!   
+recv_buffer is GET /index.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+get_request is /index.html
+lcfd /index.html  fd= 6
+path =/home/heatnan/Smart_home/www/index.html
+path in fucntion = 0x7f221c0a7fc0
+The request file format is:html 
+file type html
+send http head!
+p_path=0x7f221c0a7fc0 file_type=0x7f221c0a8b80
+
+
+one client connect!
+   349 bytes recved!   
+recv_buffer is GET /index.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+get_request is /index.html
+lcfd /index.html  fd= 4
+path =/home/heatnan/Smart_home/www/index.html
+path in fucntion = 0x7f221c0a7fc0
+The request file format is:html 
+file type html
+send http head!
+p_path=0x7f221c0a7fc0 file_type=0x7f221c0a8b80
+
+
+one client connect!
+   340 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.css
+lcfd /index_files/blog-common.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/blog-common.css
+path in fucntion = 0x7f221c0a7fc0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   316 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/id.php
+
+
+one client connect!
+lcfd /index_files/id.php  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f221c0a9740
+The request file format is:php 
+***********Open file failed!***************
+   322 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/analytics.js
+
+
+one client connect!
+lcfd /index_files/analytics.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c0aaec0
+The request file format is:js 
+***********Open file failed!***************
+   335 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/131868.css
+lcfd /index_files/131868.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/131868.css
+path in fucntion = 0x7f221c0ac640
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/bundle-coffee.css
+lcfd /index_files/bundle-coffee.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c0addc0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jiathis_share.css
+lcfd /index_files/jiathis_share.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c0af540
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/bundle-coffee.css
+lcfd /index_files/bundle-coffee.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c0b0cc0
+The request file format is:css 
+
+
+one client connect!
+***********Open file failed!***************
+   340 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.css
+
+
+one client connect!
+lcfd /index_files/blog-common.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/blog-common.css
+path in fucntion = 0x7f221c0b2440
+The request file format is:css 
+***********Open file failed!***************
+   335 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/131868.css
+lcfd /index_files/131868.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/131868.css
+path in fucntion = 0x7f221c0b3bc0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   324 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.js
+
+
+one client connect!
+   319 bytes recved!   
+recv_buffer is GET /index_files/jquery.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jquery.js
+lcfd /index_files/jquery.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c0b5340
+The request file format is:js 
+***********Open file failed!***************
+lcfd /index_files/jquery.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c0b6ac0
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   322 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/analytics.js
+lcfd /index_files/analytics.js  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c0b8240
+The request file format is:js 
+
+
+one client connect!
+***********Open file failed!***************
+   345 bytes recved!   
+recv_buffer is GET /index_files/r.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/r.gif
+lcfd /index_files/r.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/r.gif
+path in fucntion = 0x7f221c0b99c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   351 bytes recved!   
+recv_buffer is GET /index_files/img_012.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_012.gif
+
+
+one client connect!
+lcfd /index_files/img_012.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/img_012.gif
+path in fucntion = 0x7f221c0bb140
+The request file format is:gif 
+***********Open file failed!***************
+   352 bytes recved!   
+recv_buffer is GET /index_files/img_exit.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_exit.gif
+
+
+one client connect!
+lcfd /index_files/img_exit.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/img_exit.gif
+path in fucntion = 0x7f221c0bc8c0
+The request file format is:gif 
+***********Open file failed!***************
+   348 bytes recved!   
+recv_buffer is GET /index_files/logo.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/logo.gif
+
+
+one client connect!
+lcfd /index_files/logo.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/logo.gif
+path in fucntion = 0x7f221c0be040
+The request file format is:gif 
+***********Open file failed!***************
+   347 bytes recved!   
+recv_buffer is GET /index_files/xml.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/xml.gif
+lcfd /index_files/xml.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c0bf7c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   324 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.js
+lcfd /index_files/blog-common.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/blog-common.js
+path in fucntion = 0x7f221c0c0f40
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   349 bytes recved!   
+recv_buffer is GET /index_files/group.png HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/group.png
+lcfd /index_files/group.png  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/group.png
+path in fucntion = 0x7f221c0c26c0
+The request file format is:png 
+***********Open file failed!***************
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jiathis_share.css
+lcfd /index_files/jiathis_share.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c0c3e40
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   390 bytes recved!   
+recv_buffer is GET /index_files/jiathis_utility.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jiathis_utility.html
+lcfd /index_files/jiathis_utility.html  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jiathis_utility.html
+path in fucntion = 0x7f221c0c55c0
+The request file format is:html 
+***********Open file failed!***************
+
+
+one client connect!
+   352 bytes recved!   
+recv_buffer is GET /index_files/img_exit.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_exit.gif
+
+
+one client connect!
+   347 bytes recved!   
+recv_buffer is GET /index_files/xml.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/xml.gif
+lcfd /index_files/xml.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c0c6d40
+The request file format is:gif 
+***********Open file failed!***************
+lcfd /index_files/xml.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c0c84c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   349 bytes recved!   
+recv_buffer is GET /index.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+get_request is /index.html
+lcfd /index.html  fd= 6
+path =/home/heatnan/Smart_home/www/index.html
+path in fucntion = 0x7f221c0c9c40
+The request file format is:html 
+file type html
+send http head!
+p_path=0x7f221c0c9c40 file_type=0x7f221c0ca800
+
+
+one client connect!
+   335 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/131868.css
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/bundle-coffee.css
+lcfd /index_files/bundle-coffee.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c0c9c40
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/bundle-coffee.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c0cb3c0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   316 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/id.php
+lcfd /index_files/id.php  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f221c0ccb40
+The request file format is:php 
+***********Open file failed!***************
+
+
+one client connect!
+   340 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.css
+
+
+one client connect!
+   322 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/analytics.js
+lcfd /index_files/analytics.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c0ce2c0
+The request file format is:js 
+***********Open file failed!***************
+lcfd /index_files/analytics.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c0cfa40
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   324 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.js
+lcfd /index_files/blog-common.js  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/blog-common.js
+path in fucntion = 0x7f221c0d11c0
+The request file format is:js 
+
+
+one client connect!
+***********Open file failed!***************
+   342 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jiathis_share.css
+lcfd /index_files/jiathis_share.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c0d2940
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   319 bytes recved!   
+recv_buffer is GET /index_files/jquery.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jquery.js
+
+
+one client connect!
+lcfd /index_files/jquery.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c0d40c0
+The request file format is:js 
+***********Open file failed!***************
+   342 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/bundle-coffee.css
+lcfd /index_files/bundle-coffee.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c0d5840
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   349 bytes recved!   
+recv_buffer is GET /index.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+get_request is /index.html
+lcfd /index.html  fd= 5
+path =/home/heatnan/Smart_home/www/index.html
+path in fucntion = 0x7f221c0d6fc0
+The request file format is:html 
+file type html
+send http head!
+p_path=0x7f221c0d6fc0 file_type=0x7f221c0d7b80
+
+
+one client connect!
+   335 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/131868.css
+
+
+one client connect!
+   340 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.css
+lcfd /index_files/blog-common.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/blog-common.css
+path in fucntion = 0x7f221c0d6fc0
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/blog-common.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/blog-common.css
+path in fucntion = 0x7f221c0d8740
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   316 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/id.php
+lcfd /index_files/id.php  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f221c0d9ec0
+The request file format is:php 
+***********Open file failed!***************
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/bundle-coffee.css
+lcfd /index_files/bundle-coffee.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c0db640
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   322 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/analytics.js
+lcfd /index_files/analytics.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c0dcdc0
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   349 bytes recved!   
+recv_buffer is GET /index.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+
+get_request is /index.html
+lcfd /index.html  fd= 4
+path =/home/heatnan/Smart_home/www/index.html
+path in fucntion = 0x7f221c0de540
+The request file format is:html 
+file type html
+send http head!
+p_path=0x7f221c0de540 file_type=0x7f221c0df100
+
+
+one client connect!
+   323 bytes recved!   
+recv_buffer is GET /index.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+get_request is /index.html
+lcfd /index.html  fd= 5
+path =/home/heatnan/Smart_home/www/index.html
+path in fucntion = 0x7f221c0de540
+The request file format is:html 
+file type html
+send http head!
+p_path=0x7f221c0de540 file_type=0x7f221c0df100
+
+
+one client connect!
+   323 bytes recved!   
+recv_buffer is GET /index.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+get_request is /index.html
+lcfd /index.html  fd= 4
+path =/home/heatnan/Smart_home/www/index.html
+path in fucntion = 0x7f221c0de540
+The request file format is:html 
+file type html
+send http head!
+p_path=0x7f221c0de540 file_type=0x7f221c0df100
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/bundle-coffee.css
+
+
+one client connect!
+lcfd /index_files/bundle-coffee.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c0de540
+The request file format is:css 
+***********Open file failed!***************
+   335 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/131868.css
+lcfd /index_files/131868.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/131868.css
+path in fucntion = 0x7f221c0dfcc0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   316 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/id.php
+
+
+one client connect!
+lcfd /index_files/id.php  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f221c0e1440
+The request file format is:php 
+***********Open file failed!***************
+   340 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.css
+
+
+one client connect!
+   322 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/analytics.js
+lcfd /index_files/analytics.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c0e2bc0
+The request file format is:js 
+***********Open file failed!***************
+lcfd /index_files/analytics.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c0e4340
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   319 bytes recved!   
+recv_buffer is GET /index_files/jquery.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jquery.js
+
+
+one client connect!
+lcfd /index_files/jquery.js  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c0e5ac0
+The request file format is:js 
+***********Open file failed!***************
+   342 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jiathis_share.css
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/bundle-coffee.css
+
+
+one client connect!
+lcfd /index_files/bundle-coffee.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c0e7240
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/bundle-coffee.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c0e89c0
+The request file format is:css 
+***********Open file failed!***************
+   335 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/131868.css
+lcfd /index_files/131868.css  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/131868.css
+path in fucntion = 0x7f221c0ea140
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   324 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/blog-common.js
+lcfd /index_files/blog-common.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/blog-common.js
+path in fucntion = 0x7f221c0eb8c0
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   345 bytes recved!   
+recv_buffer is GET /index_files/r.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/r.gif
+
+
+one client connect!
+lcfd /index_files/r.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/r.gif
+path in fucntion = 0x7f221c0ed040
+The request file format is:gif 
+   352 bytes recved!   
+recv_buffer is GET /index_files/img_exit.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_exit.gif
+***********Open file failed!***************
+lcfd /index_files/img_exit.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/img_exit.gif
+path in fucntion = 0x7f221c0ee7c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   347 bytes recved!   
+recv_buffer is GET /index_files/xml.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/xml.gif
+
+
+one client connect!
+lcfd /index_files/xml.gif  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c0eff40
+The request file format is:gif 
+***********Open file failed!***************
+   348 bytes recved!   
+recv_buffer is GET /index_files/logo.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/logo.gif
+lcfd /index_files/logo.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/logo.gif
+path in fucntion = 0x7f221c0f16c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   349 bytes recved!   
+recv_buffer is GET /index_files/group.png HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/group.png
+lcfd /index_files/group.png  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/group.png
+path in fucntion = 0x7f221c0f2e40
+The request file format is:png 
+***********Open file failed!***************
+
+
+one client connect!
+   351 bytes recved!   
+recv_buffer is GET /index_files/img_012.gif HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/img_012.gif
+lcfd /index_files/img_012.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/img_012.gif
+path in fucntion = 0x7f221c0f45c0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   342 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jiathis_share.css
+lcfd /index_files/jiathis_share.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c0f5d40
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   390 bytes recved!   
+recv_buffer is GET /index_files/jiathis_utility.html HTTP/1.1
+Host: 123.56.4.89:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://123.56.4.89:8000/index.html
+Connection: keep-alive
+
+
+get_request is /index_files/jiathis_utility.html
+lcfd /index_files/jiathis_utility.html  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jiathis_utility.html
+path in fucntion = 0x7f221c0f74c0
+The request file format is:html 
+***********Open file failed!***************
+
+
+one client connect!
+   153 bytes recved!   
+recv_buffer is GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1
+Host: www.baidu.com
+User-Agent: Mozilla
+If-Modified-Since: Thu, 19 Apr 2012 09:51:20 GMT
+
+
+get_request is http://www.baidu.com/cache/global/img/gs.gif
+lcfd http://www.baidu.com/cache/global/img/gs.gif  fd= 5
+path =/home/heatnan/Smart_home/wwwhttp://www.baidu.com/cache/global/img/gs.gif
+path in fucntion = 0x7f221c0f8c40
+The request file format is:baidu.com/cache/global/img/gs.gif 
+***********Open file failed!***************
+
+
+one client connect!
+   153 bytes recved!   
+recv_buffer is GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1
+Host: www.baidu.com
+User-Agent: Mozilla
+If-Modified-Since: Thu, 19 Apr 2012 09:51:20 GMT
+
+
+get_request is http://www.baidu.com/cache/global/img/gs.gif
+lcfd http://www.baidu.com/cache/global/img/gs.gif  fd= 4
+path =/home/heatnan/Smart_home/wwwhttp://www.baidu.com/cache/global/img/gs.gif
+path in fucntion = 0x7f221c0fa3c0
+The request file format is:baidu.com/cache/global/img/gs.gif 
+***********Open file failed!***************
+
+
+one client connect!
+   153 bytes recved!   
+recv_buffer is GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1
+Host: www.baidu.com
+User-Agent: Mozilla
+If-Modified-Since: Thu, 19 Apr 2012 09:51:20 GMT
+
+
+get_request is http://www.baidu.com/cache/global/img/gs.gif
+lcfd http://www.baidu.com/cache/global/img/gs.gif  fd= 5
+path =/home/heatnan/Smart_home/wwwhttp://www.baidu.com/cache/global/img/gs.gif
+path in fucntion = 0x7f221c0fbb40
+The request file format is:baidu.com/cache/global/img/gs.gif 
+***********Open file failed!***************
+
+
+one client connect!
+   616 bytes recved!   
+recv_buffer is GET /index.html HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,UC/145,plugin/1,alipay/un
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+X-UCBrowser-UA: dv(MX5);pr(UCBrowser/10.10.0.800);ov(Android 5.1);ss(360*640);pi(1080*1920);bt(YZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(1);
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index.html
+lcfd /index.html  fd= 4
+path =/home/heatnan/Smart_home/www/index.html
+path in fucntion = 0x7f221c0fd2c0
+The request file format is:html 
+file type html
+send http head!
+p_path=0x7f221c0fd2c0 file_type=0x7f221c0fde80
+
+
+one client connect!
+   446 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/id.php
+
+
+one client connect!
+lcfd /index_files/id.php  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/id.php
+path in fucntion = 0x7f221c0fd2c0
+The request file format is:php 
+***********Open file failed!***************
+   470 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/blog-common.css
+lcfd /index_files/blog-common.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/blog-common.css
+path in fucntion = 0x7f221c0fea40
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   472 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/bundle-coffee.css
+lcfd /index_files/bundle-coffee.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/bundle-coffee.css
+path in fucntion = 0x7f221c1001c0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   452 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/analytics.js
+
+
+one client connect!
+lcfd /index_files/analytics.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/analytics.js
+path in fucntion = 0x7f221c101940
+The request file format is:js 
+***********Open file failed!***************
+   465 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/131868.css
+
+
+one client connect!
+   449 bytes recved!   
+recv_buffer is GET /index_files/jquery.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jquery.js
+lcfd /index_files/jquery.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c1030c0
+The request file format is:js 
+***********Open file failed!***************
+lcfd /index_files/jquery.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c104840
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   454 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/blog-common.js
+lcfd /index_files/blog-common.js  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/blog-common.js
+path in fucntion = 0x7f221c105fc0
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   470 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/blog-common.css
+
+
+one client connect!
+lcfd /index_files/blog-common.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/blog-common.css
+path in fucntion = 0x7f221c107740
+The request file format is:css 
+***********Open file failed!***************
+   446 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/id.php
+
+
+one client connect!
+   472 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/bundle-coffee.css
+
+
+one client connect!
+   472 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_share.css
+lcfd /index_files/jiathis_share.css  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c108ec0
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/jiathis_share.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c10a640
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/jiathis_share.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c10bdc0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   465 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/131868.css
+
+
+one client connect!
+   452 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/analytics.js
+
+
+one client connect!
+   449 bytes recved!   
+recv_buffer is GET /index_files/jquery.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jquery.js
+lcfd /index_files/jquery.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c10d540
+The request file format is:js 
+***********Open file failed!***************
+lcfd /index_files/jquery.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c10ecc0
+The request file format is:js 
+***********Open file failed!***************
+lcfd /index_files/jquery.js  fd= 7
+path =/home/heatnan/Smart_home/www/index_files/jquery.js
+path in fucntion = 0x7f221c110440
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   454 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/blog-common.js
+
+
+one client connect!
+lcfd /index_files/blog-common.js  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/blog-common.js
+path in fucntion = 0x7f221c111bc0
+The request file format is:js 
+***********Open file failed!***************
+   446 bytes recved!   
+recv_buffer is GET /index_files/id.php HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/id.php
+
+
+one client connect!
+   472 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_share.css
+lcfd /index_files/jiathis_share.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c113340
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/jiathis_share.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c114ac0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   470 bytes recved!   
+recv_buffer is GET /index_files/blog-common.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/blog-common.css
+lcfd /index_files/blog-common.css  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/blog-common.css
+path in fucntion = 0x7f221c116240
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   472 bytes recved!   
+recv_buffer is GET /index_files/bundle-coffee.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/bundle-coffee.css
+
+
+one client connect!
+   449 bytes recved!   
+recv_buffer is GET /index_files/jquery.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jquery.js
+
+
+one client connect!
+   465 bytes recved!   
+recv_buffer is GET /index_files/131868.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/131868.css
+lcfd /index_files/131868.css  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/131868.css
+path in fucntion = 0x7f221c1179c0
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/131868.css  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/131868.css
+path in fucntion = 0x7f221c119140
+The request file format is:css 
+***********Open file failed!***************
+lcfd /index_files/131868.css  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/131868.css
+path in fucntion = 0x7f221c11a8c0
+The request file format is:css 
+***********Open file failed!***************
+
+
+one client connect!
+   472 bytes recved!   
+recv_buffer is GET /index_files/jiathis_share.css HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_share.css
+
+
+one client connect!
+lcfd /index_files/jiathis_share.css  fd= 7
+path =/home/heatnan/Smart_home/www/index_files/jiathis_share.css
+path in fucntion = 0x7f221c11c040
+The request file format is:css 
+***********Open file failed!***************
+   452 bytes recved!   
+recv_buffer is GET /index_files/analytics.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/analytics.js
+
+
+one client connect!
+   472 bytes recved!   
+recv_buffer is GET /index_files/r.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/r.gif
+
+
+one client connect!
+   454 bytes recved!   
+recv_buffer is GET /index_files/blog-common.js HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: */*
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/blog-common.js
+lcfd /index_files/blog-common.js  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/blog-common.js
+path in fucntion = 0x7f221c11d7c0
+The request file format is:js 
+***********Open file failed!***************
+lcfd /index_files/blog-common.js  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/blog-common.js
+path in fucntion = 0x7f221c11ef40
+The request file format is:js 
+***********Open file failed!***************
+lcfd /index_files/blog-common.js  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/blog-common.js
+path in fucntion = 0x7f221c1206c0
+The request file format is:js 
+***********Open file failed!***************
+
+
+one client connect!
+   479 bytes recved!   
+recv_buffer is GET /index_files/img_exit.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/img_exit.gif
+
+
+one client connect!
+lcfd /index_files/img_exit.gif  fd= 7
+path =/home/heatnan/Smart_home/www/index_files/img_exit.gif
+path in fucntion = 0x7f221c121e40
+The request file format is:gif 
+***********Open file failed!***************
+   478 bytes recved!   
+recv_buffer is GET /index_files/img_012.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/img_012.gif
+
+
+one client connect!
+   475 bytes recved!   
+recv_buffer is GET /index_files/logo.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/logo.gif
+lcfd /index_files/logo.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/logo.gif
+path in fucntion = 0x7f221c1235c0
+The request file format is:gif 
+***********Open file failed!***************
+lcfd /index_files/logo.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/logo.gif
+path in fucntion = 0x7f221c124d40
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   474 bytes recved!   
+recv_buffer is GET /index_files/xml.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/xml.gif
+
+
+one client connect!
+   472 bytes recved!   
+recv_buffer is GET /index_files/r.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/r.gif
+
+
+one client connect!
+   476 bytes recved!   
+recv_buffer is GET /index_files/group.png HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/group.png
+lcfd /index_files/group.png  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/group.png
+path in fucntion = 0x7f221c1264c0
+The request file format is:png 
+***********Open file failed!***************
+lcfd /index_files/group.png  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/group.png
+path in fucntion = 0x7f221c127c40
+The request file format is:png 
+***********Open file failed!***************
+lcfd /index_files/group.png  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/group.png
+path in fucntion = 0x7f221c1293c0
+The request file format is:png 
+***********Open file failed!***************
+
+
+one client connect!
+   475 bytes recved!   
+recv_buffer is GET /index_files/logo.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/logo.gif
+
+
+one client connect!
+   478 bytes recved!   
+recv_buffer is GET /index_files/img_012.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/img_012.gif
+
+
+one client connect!
+lcfd /index_files/img_012.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/img_012.gif
+path in fucntion = 0x7f221c12ab40
+The request file format is:gif 
+***********Open file failed!***************
+lcfd /index_files/img_012.gif  fd= 7
+path =/home/heatnan/Smart_home/www/index_files/img_012.gif
+path in fucntion = 0x7f221c12c2c0
+The request file format is:gif 
+***********Open file failed!***************
+   479 bytes recved!   
+recv_buffer is GET /index_files/img_exit.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/img_exit.gif
+lcfd /index_files/img_exit.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/img_exit.gif
+path in fucntion = 0x7f221c12da40
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   476 bytes recved!   
+recv_buffer is GET /index_files/group.png HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/group.png
+
+
+one client connect!
+lcfd /index_files/group.png  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/group.png
+path in fucntion = 0x7f221c12f1c0
+The request file format is:png 
+***********Open file failed!***************
+   472 bytes recved!   
+recv_buffer is GET /index_files/r.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/r.gif
+
+
+one client connect!
+   474 bytes recved!   
+recv_buffer is GET /index_files/xml.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/xml.gif
+
+
+one client connect!
+   683 bytes recved!   
+recv_buffer is GET /index_files/jiathis_utility.html HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+X-UCBrowser-UA: dv(MX5);pr(UCBrowser/10.10.0.800);ov(Android 5.1);ss(360*640);pi(1080*1920);bt(YZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(1);
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,UC/145,plugin/1,alipay/un
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_utility.html
+lcfd /index_files/jiathis_utility.html  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/jiathis_utility.html
+path in fucntion = 0x7f221c130940
+The request file format is:html 
+***********Open file failed!***************
+lcfd /index_files/jiathis_utility.html  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/jiathis_utility.html
+path in fucntion = 0x7f221c1320c0
+The request file format is:html 
+***********Open file failed!***************
+lcfd /index_files/jiathis_utility.html  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/jiathis_utility.html
+path in fucntion = 0x7f221c133840
+The request file format is:html 
+***********Open file failed!***************
+
+
+one client connect!
+   479 bytes recved!   
+recv_buffer is GET /index_files/img_exit.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/img_exit.gif
+
+
+one client connect!
+lcfd /index_files/img_exit.gif  fd= 7
+path =/home/heatnan/Smart_home/www/index_files/img_exit.gif
+path in fucntion = 0x7f221c134fc0
+The request file format is:gif 
+***********Open file failed!***************
+   475 bytes recved!   
+recv_buffer is GET /index_files/logo.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/logo.gif
+
+
+one client connect!
+lcfd /index_files/logo.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/logo.gif
+path in fucntion = 0x7f221c136740
+The request file format is:gif 
+***********Open file failed!***************
+   478 bytes recved!   
+recv_buffer is GET /index_files/img_012.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/img_012.gif
+lcfd /index_files/img_012.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/img_012.gif
+path in fucntion = 0x7f221c137ec0
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   683 bytes recved!   
+recv_buffer is GET /index_files/jiathis_utility.html HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+X-UCBrowser-UA: dv(MX5);pr(UCBrowser/10.10.0.800);ov(Android 5.1);ss(360*640);pi(1080*1920);bt(YZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(1);
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,UC/145,plugin/1,alipay/un
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_utility.html
+
+
+one client connect!
+   476 bytes recved!   
+recv_buffer is GET /index_files/group.png HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/group.png
+
+
+one client connect!
+   474 bytes recved!   
+recv_buffer is GET /index_files/xml.gif HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: image/png,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/xml.gif
+lcfd /index_files/xml.gif  fd= 4
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c139640
+The request file format is:gif 
+***********Open file failed!***************
+lcfd /index_files/xml.gif  fd= 6
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c13adc0
+The request file format is:gif 
+***********Open file failed!***************
+lcfd /index_files/xml.gif  fd= 5
+path =/home/heatnan/Smart_home/www/index_files/xml.gif
+path in fucntion = 0x7f221c13c540
+The request file format is:gif 
+***********Open file failed!***************
+
+
+one client connect!
+   683 bytes recved!   
+recv_buffer is GET /index_files/jiathis_utility.html HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+X-UCBrowser-UA: dv(MX5);pr(UCBrowser/10.10.0.800);ov(Android 5.1);ss(360*640);pi(1080*1920);bt(YZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(1);
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,UC/145,plugin/1,alipay/un
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /index_files/jiathis_utility.html
+lcfd /index_files/jiathis_utility.html  fd= 7
+path =/home/heatnan/Smart_home/www/index_files/jiathis_utility.html
+path in fucntion = 0x7f221c13dcc0
+The request file format is:html 
+***********Open file failed!***************
+
+
+one client connect!
+   507 bytes recved!   
+recv_buffer is GET /favicon.ico HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/xml,text/html,application/xhtml+xml,image/png,text/plain,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /favicon.ico
+lcfd /favicon.ico  fd= 4
+path =/home/heatnan/Smart_home/www/favicon.ico
+path in fucntion = 0x7f221c13f440
+The request file format is:ico 
+***********Open file failed!***************
+
+
+one client connect!
+   507 bytes recved!   
+recv_buffer is GET /favicon.ico HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/xml,text/html,application/xhtml+xml,image/png,text/plain,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /favicon.ico
+lcfd /favicon.ico  fd= 5
+path =/home/heatnan/Smart_home/www/favicon.ico
+path in fucntion = 0x7f221c140bc0
+The request file format is:ico 
+***********Open file fai*** Error in `./WebServer': free(): invalid pointer: 0x0000000000401778 ***
+led!***************
+
+
+one client connect!
+   507 bytes recved!   
+recv_buffer is GET /favicon.ico HTTP/1.1
+Host: 123.56.4.89:8000
+Cookie: CNZZDATA5015251=cnzz_eid%3D1832510013-1462771909-%26ntime%3D1462779454
+Referer: http://123.56.4.89:8000/index.html
+Accept: text/xml,text/html,application/xhtml+xml,image/png,text/plain,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; MX5 Build/LMY47I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.0.800 U3/0.8.0 Mobile Safari/534.30
+Connection: keep-alive
+Accept-Encoding: gzip
+Accept-Language: zh-CN
+
+
+get_request is /favicon.ico
+lcfd /favicon.ico  fd= 4
+path =/home/heatnan/Smart_home/www/favicon.ico
+path in fucntion = 0x7f221c142340
+The request file format is:ico 
+***********Open file failed!***************
+
+
+one client connect!
+   153 bytes recved!   
+recv_buffer is GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1
+Host: www.baidu.com
+User-Agent: Mozilla
+If-Modified-Since: Thu, 19 Apr 2012 09:51:20 GMT
+
+
+get_request is http://www.baidu.com/cache/global/img/gs.gif
+lcfd http://www.baidu.com/cache/global/img/gs.gif  fd= 5
+path =/home/heatnan/Smart_home/wwwhttp://www.baidu.com/cache/global/img/gs.gif
+path in fucntion = 0x7f221c143ac0
+The request file format is:baidu.com/cache/global/img/gs.gif 
+***********Open file failed!***************
+
+
+one client connect!
+   315 bytes recved!   
+recv_buffer is GET / HTTP/1.0
+User-Agent: spiderman
+Accept-Language: en-us,en-gb,en;q=0.7,*;q=0.3
+Accept-Charset: utf-8,ISO-8859-1;q=0.7,*;q=0.7
+Accept: text/html,application/xml;q=0.9,application/xhtml+xml,text/xml;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+Accept-Encoding: x-gzip, gzip, deflate
+Host: 123.56.4.89:8000
+
+
+get_request is /
+lcfd /  fd= 4
+path =/home/heatnan/Smart_home/www/
+path in fucntion = 0x7f221c145240
+I have no type!
+file type plain
+send http head!
