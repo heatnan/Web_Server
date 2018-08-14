@@ -38,6 +38,7 @@ int main()
         {	printf("create socket failed!\n");
 		exit(EXIT_FAILURE);
 	}
+
 	memset(&server_addr,0,sizeof(server_addr));
 	server_addr.sin_family=AF_INET;
 	server_addr.sin_port=htons(PORT);
@@ -48,7 +49,9 @@ int main()
 		exit(EXIT_FAILURE);
 	}
 	else
-		printf("bind success!\n");
+	
+	printf("bind success!\n");
+	
 	if(listen(server_sockfd,5)==-1)
 	{
 		printf("listen failed!\n");
@@ -58,10 +61,13 @@ int main()
 	{
 		printf("start listening!\n");
 	}
+	
 	while(1)
 	{
 		char c;
+	
 		client_sockfd=accept(server_sockfd,(struct sockaddr*)&client_addr,&addr_len);
+	
 		if(client_sockfd==-1)
 		{
 			printf("accept failed!\n");
@@ -71,11 +77,14 @@ int main()
 		{
 			printf("\n\none client connect!\n");
 		}	        
- 		memset(buffer,0,sizeof(buffer));
+ 	
+		memset(buffer,0,sizeof(buffer));
+	
 		int recv_len=recv(client_sockfd,buffer,sizeof(buffer),0);
 		printf("   %d bytes recved!   \n",recv_len);
 		printf("recv_buffer is %s\n",buffer);
 		p_buffer=buffer;
+	
 		if(recv_len>0&&recv_len<BUFFER_SIZE)
 		{
 			char temp1[10];
@@ -104,6 +113,9 @@ int main()
 	close(client_sockfd);
 	return 0;
 }
+
+
+
 void *client_thread(void *arg)
 {
 	cfd lcfd;
