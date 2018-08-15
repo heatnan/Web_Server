@@ -40,7 +40,8 @@ char* get_file_type(char *file_name)
 	if(*p_file_name=='\0')
 	{
 		printf("I have no type!\n");
-		return unknow;
+		strcpy(p_type,unknow);
+		return p_type;
 	}
 	p_file_name++;
 	k=0;
@@ -112,6 +113,16 @@ void handle_get(cfd lcfd)
 	
 	p_type=get_file_type(hcfd.recv_buf);
 	
+	// judage ruquest file is regular file , ensure not dir ,not exists
+	if(!is_regular_file(p_path))
+	{
+		printf("the request file  is not found\n");
+		show_exception(404,hcfd.fd);
+		free(p_path);
+		free(p_type);
+		close(hcfd.fd);		
+		return;
+	}
 	
 	send_file(p_path,hcfd.fd,p_type);
 	
@@ -157,4 +168,38 @@ void send_file(char *file_path,int socket_fd,char *file_type)
 			close(socket_fd);
 	printf("p_path=%p file_type=%p\n",p_path,file_type);
                 	
+}
+
+
+int is_regular_file(const char* path)
+{
+	struct stat path_stat;
+	stat(path,&path_stat);
+	return S_ISREG(path_stat.st_mode);
+}
+
+
+int check_file_exists(const char *path)
+{
+	return 1;	
+}
+
+
+void show_exception(int type,int socket_fd)
+{
+	char msg[1000];
+	memset(msg,0,sizeof(msg));
+	switch(type)
+	{
+		case 404:
+			strcpy( msg , "HTTP/1.1 404 NOT FOUND\r\n");
+			break;
+		default:
+			strcpy(msg , "unknow error");
+			break;
+	}
+	write(socket_fd,msg,strlen(msg));
+	close(socket_fd);
+	
+
 }

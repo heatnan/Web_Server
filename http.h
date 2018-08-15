@@ -15,3 +15,6 @@ char* get_file_name(char *str);
 char* get_file_type(char *file_name);
 void send_index_file(int socket_fd);
 void handle_get(cfd lcfd);
+int is_regular_file(const char* path);
+int check_file_exist(const char* path);
+void show_exception(int type,int socket_fd);
