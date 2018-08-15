@@ -84,14 +84,23 @@ int main()
 		printf("   %d bytes recved!   \n",recv_len);
 		printf("recv_buffer is %s\n",buffer);
 		p_buffer=buffer;
-	
-		if(recv_len>0&&recv_len<BUFFER_SIZE)
+
+
+		if(recv_len > 800)
 		{
-			char temp1[10];
-			char temp2[10];
+			close(client_sockfd);
+			printf("invald request\n");
+			continue;
+		}
+		
+	
+		if( recv_len > 0 && recv_len < BUFFER_SIZE )
+		{
+			char cmd[10];
+			char version[10];
 			char get_request[3000];
 			memset(get_request,0,sizeof(get_request));
-			sscanf(buffer,"%s %s %s",temp1,get_request,temp2);
+			sscanf(buffer,"%s %s %s",cmd,get_request,version);
 			printf("get_request is %s\n",get_request);
 			cfd *p_cfg=malloc(sizeof(cfd));
 			p_cfg->fd=client_sockfd;

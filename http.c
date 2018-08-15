@@ -60,7 +60,7 @@ char* get_file_type(char *file_name)
 char* get_file_path(char *file_name)
 {
 	char name[1000];
-	char path[2000]="/home/heatnan/Smart_home/www";
+	char path[2000]="/var/www";
 	char *p_path=(char *)malloc(3000*sizeof(char));
 	memset(name,0,sizeof(name));
 	
