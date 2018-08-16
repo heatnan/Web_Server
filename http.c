@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<string.h>
 #include"http.h"
@@ -5,6 +6,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <stdlib.h>
+#include <limits.h>
 #define BUFFER_SIZE 3000
 /*
 	function:get the request file name
@@ -60,20 +62,29 @@ char* get_file_type(char *file_name)
 char* get_file_path(char *file_name)
 {
 	char name[1000];
-	char path[2000]="/var/www";
+	char path[PATH_MAX];
+
 	char *p_path=(char *)malloc(3000*sizeof(char));
+
 	memset(name,0,sizeof(name));
 	
-	if(path==NULL)
+	if(p_path==NULL)
 	{
 		printf("malloc path failed!\n");
+	}
+	
+	if(getcwd(path,sizeof(path)) == NULL){
+		return p_path;			
 	}
 	
 	strcpy(name,file_name);
 		
 	if(file_name==NULL)
+	{
+		//free(p_path);
 		return NULL;
-
+	}
+	strcat(path,"/www");
 	strcat(path,name);
 	printf("path =%s\n",path);
 	strcpy(p_path,path);

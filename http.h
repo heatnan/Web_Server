@@ -1,3 +1,8 @@
+#ifndef http_h
+#define http_h
+
+
+
 #include<sys/socket.h>
 #include<stdio.h>
 #include<string.h>
@@ -18,3 +23,6 @@ void handle_get(cfd lcfd);
 int is_regular_file(const char* path);
 int check_file_exist(const char* path);
 void show_exception(int type,int socket_fd);
+
+
+#endif
