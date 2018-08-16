@@ -18,6 +18,7 @@ language:c++
 #include <sys/ioctl.h>
 #include <pthread.h>
 #include "http.h"
+#include <errno.h>
 #define BUFFER_SIZE 3000
 #define PORT 8000
 #define FILENAME 'main.html'
@@ -27,12 +28,13 @@ int main()
 {
 	char buffer[BUFFER_SIZE];
 	char* p_buffer;
+
 	struct sockaddr_in server_addr,client_addr;
 	socklen_t addr_len=sizeof(struct sockaddr_in);
+	
 	int server_sockfd,client_sockfd;
 	pthread_t client;
 
-    
 	server_sockfd=socket(AF_INET,SOCK_STREAM,0);
 	if(server_sockfd<0) 
         {	printf("create socket failed!\n");
@@ -44,8 +46,17 @@ int main()
 	server_addr.sin_port=htons(PORT);
 	server_addr.sin_addr.s_addr=INADDR_ANY;
 
+	int enable = 1;
+	if(setsockopt(server_sockfd,SOL_SOCKET,SO_REUSEADDR,&enable,sizeof(int)) < 0)
+	{
+		printf("setsockopt failed\n");
+		exit(EXIT_FAILURE);
+	}
+
+
 	if(bind(server_sockfd,(struct sockaddr*)&server_addr,sizeof(server_addr))!=0){
 		printf("bind error!\n");
+		printf("msg:%s\n",strerror(errno));
 		exit(EXIT_FAILURE);
 	}
 	else
@@ -83,6 +94,7 @@ int main()
 		int recv_len=recv(client_sockfd,buffer,sizeof(buffer),0);
 		printf("   %d bytes recved!   \n",recv_len);
 		printf("recv_buffer is %s\n",buffer);
+		printf("the client fd is = %d\n",client_sockfd);
 		p_buffer=buffer;
 
 
@@ -119,7 +131,7 @@ int main()
 			printf("..................here is a request not success!................\n");
 		}                    
 	}
-	close(client_sockfd);
+	close(server_sockfd);
 	return 0;
 }
 
