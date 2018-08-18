@@ -3,7 +3,6 @@ author:heat nan
 date:2015/2/5
 language:c++
 */
-
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <stdlib.h>
@@ -22,8 +21,9 @@ language:c++
 #define BUFFER_SIZE 3000
 #define PORT 8000
 #define FILENAME 'main.html'
-int ds18b20_fd=-1;
+
 void *client_thread(void *arg);
+
 int main()
 {
 	char buffer[BUFFER_SIZE];
@@ -112,18 +112,22 @@ int main()
 			char version[10];
 			char get_request[3000];
 			memset(get_request,0,sizeof(get_request));
+			
 			sscanf(buffer,"%s %s %s",cmd,get_request,version);
+
 			printf("get_request is %s\n",get_request);
+
 			cfd *p_cfg=malloc(sizeof(cfd));
 			p_cfg->fd=client_sockfd;
 			p_cfg->recv_buf=get_request;
-		//	handle_get(p_buffer,client_sockfd);  
+			
 			if(pthread_create(&client,NULL,&client_thread,p_cfg)!=0)
 			{
 				printf("create pthread failed!\n");
 				close(p_cfg->fd);
 				continue;
 			}
+			
 			pthread_detach(client);
 		}
 		else
