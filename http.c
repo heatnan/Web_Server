@@ -6,6 +6,7 @@
 #include <fcntl.h>
 #include <stdlib.h>
 #include <limits.h>
+#include <unistd.h>
 #define BUFFER_SIZE 3000
 	
 
@@ -108,7 +109,10 @@ void send_file(char *file_path,int socket_fd,const char *file_type)
 	int fd;
 	char send_buffer[BUFFER_SIZE];
 	char p_path[PATH_MAX];
+
+	memset(send_buffer,0,sizeof(send_buffer));
 	strcpy(p_path,file_path);
+
 	fd=open(file_path,O_RDONLY);
 	if(fd<0)
 	{
@@ -117,17 +121,15 @@ void send_file(char *file_path,int socket_fd,const char *file_type)
 		return ;
 		
 	}
-	memset(send_buffer,0,sizeof(send_buffer));
         
 	printf("file type %s\n",file_type);
   
-		 sprintf(send_buffer,"HTTP/1.1 200 OK\r\n"\
+	sprintf(send_buffer,"HTTP/1.1 200 OK\r\n"\
                              "Conten-Type:%s\r\n"\
                              "\r\n",file_type);
-     		printf("send http head!\n");
+     	
+	printf("send http head!\n");
 
-	
-	
         int file_length=strlen(send_buffer);
         do{
         	if(write(socket_fd,send_buffer,file_length)<0)
@@ -136,8 +138,9 @@ void send_file(char *file_path,int socket_fd,const char *file_type)
                 	break;
                 }
           }while((file_length=read(fd,send_buffer,sizeof(send_buffer)))>0);
-			close(fd);
-			close(socket_fd);
+	
+	close(fd);
+	close(socket_fd);
 	printf("p_path=%p file_type=%p\n",p_path,file_type);
                 	
 }

@@ -7,7 +7,8 @@
 #define SIZE 3000
 
 typedef struct {
- 	char *recv_buf;
+ 	char *cmd;
+	char *recv_buf;
 	int fd;	
 } cfd;
 

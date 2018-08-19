@@ -1,7 +1,7 @@
-/*program: test for the socket_web for the firefox
+/*program: c web server
 author:heat nan
-date:2015/2/5
-language:c++
+language:c
+test: firefox/google
 */
 #include <sys/types.h>
 #include <sys/socket.h>
@@ -20,7 +20,6 @@ language:c++
 #include <errno.h>
 #define BUFFER_SIZE 3000
 #define PORT 8000
-#define FILENAME 'main.html'
 
 void *client_thread(void *arg);
 
@@ -118,6 +117,7 @@ int main()
 			printf("get_request is %s\n",get_request);
 
 			cfd *p_cfg=malloc(sizeof(cfd));
+			p_cfg->cmd=cmd;
 			p_cfg->fd=client_sockfd;
 			p_cfg->recv_buf=get_request;
 			
@@ -153,7 +153,15 @@ void *client_thread(void *arg)
 	{
 		return NULL;
 	}
-	handle_get(lcfd);
+	if(strcmp(lcfd.cmd,"GET") == 0)
+	{
+		handle_get(lcfd);
+	}
+	else if(strcmp(lcfd.cmd,"POST") == 0)
+	{
+		//TO DO
+	}
+	
 }
 
 
