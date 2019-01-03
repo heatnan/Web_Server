@@ -4,6 +4,3 @@ This software is write for enbedded system,as we all know,with the developping o
 connect to the internet.So,this web server can built_in a thing,we can konw the things well throw the web server.
 
 
-modify time: 
-
-test
